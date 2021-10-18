@@ -29,7 +29,7 @@ while($row = mysqli_fetch_array($result)){
             <div id="h_in">
                 <div class="logo"><a href="index.php"><img src="PSMaker_logo.jpg" alt=""></a></div>
                 <ul class="menu">
-                    <li class="m1">장애인차량 등록</li>
+                    <li class="m1">장애인차량 등록1</li>
                     <li class="m2">장애인차량 조회</li>
                     <li class="m3">위반차량 조회</li>
                 </ul>
