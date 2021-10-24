@@ -72,7 +72,7 @@
             <div id="h_in">
                 <div class="logo"><a href="index.php"><img src="PSMaker_logo.jpg" alt=""></a></div>
                 <ul class="menu">
-                    <li class="m1">장애인차량 등록</li>
+                    <li class="m1" style="color: rgb(255,205,74);">장애인차량 등록</li>
                     <li class="m2">장애인차량 조회</li>
                     <li class="m3">위반차량 조회</li>
                 </ul>
@@ -171,7 +171,7 @@
                 $("html, body").animate({scrollTop:0}, '500');
                 return false;
             })
-            $(".m1, .m2, .m3").hover(function(){
+            $(".m2, .m3").hover(function(){
                 $(this).css("color", "#ffcd4a");
             }, function(){
                 $(this).css("color", "black");
